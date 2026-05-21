@@ -33,7 +33,7 @@ The evaluation results show that ARIMAX significantly outperforms LSTM in price 
 
 However, in terms of directional accuracy (MDA), LSTM's result is slightly higher than ARIMAX (48.40% vs 45.29%). This shows that although LSTM is not as accurate as ARIMAX in predicting actual price values, it has a slight advantage in identifying short-term price direction. However, neither model's MDA reaches a high level, indicating that their ability to predict short-term direction is relatively limited.
 
-In summary, ARIMAX is more suitable for predicting price levels of Ferrari stock, while LSTM did not demonstrate a stronger predictive advantage over ARIMAX in this experiment.
+In summary, ARIMAX and LSTM are suitable for predicting price levels of Ferrari stock. However, it can be improved while adjusting hyterparameters.
 
 |        | MAE (USD) |   MSE    | RMSE (USD) | MAPE (%) | MDA (%) |
 | :----: | :-------: | :------: | :--------: | :------: | :-----: |
